@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyeon UI</title>
+</head>
+<body>
+  <div id="HUI">
+    <h1>Hyeon UI</h1>
+
+    <div id="container" class="container">
+      <button class="hui-button">HUI Button</button>
+    </div>
+  </div>
+
+  <script type="module">
+    import '../dist/Hui.js'
+    
+    'use strict'
+
+    const hui = new Hui()
+    hui.button('.hui-button')
+
+    window.hui = hui
+  </script>
+</body>
+</html>
