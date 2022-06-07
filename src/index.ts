@@ -1,6 +1,6 @@
 class Hui {
   constructor () {
-    console.log('test')
+    
   }
 }
 
